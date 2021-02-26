@@ -1,0 +1,31 @@
+.calc-app{
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 260px;
+  text-align: center;
+}
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px,auto);
+}
+
+.input{
+  height: 160px;
+  padding: 2px;
+  margin: 5px;
+
+}
+#result{
+  grid-column: 2/5;
+  grid-row: 5;
+  background-color: green;
+}
+
+#clear{
+  background-color: red;
+}
+#backspace{
+  background-color: orange;
+}
+
